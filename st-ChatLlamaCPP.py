@@ -85,7 +85,7 @@ if "chatdocs" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = []   
 if "chatUImessages" not in st.session_state:
-    st.session_state.chatUImessages = [{"role": "assistant", "content": "Hi there! I am here to assist you with this Image. What do you want to know?"}]   
+    st.session_state.chatUImessages = [{"role": "assistant", "content": "Hi there! I am here to assist you with this document. What do you want to know?"}]   
 if "uploadedDoc" not in st.session_state:
     st.session_state.uploadedDoc = [] 
 if "uploadedText" not in st.session_state:
